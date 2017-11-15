@@ -107,6 +107,7 @@ footer {
   #newGameBtn:hover {
     background-color: #3838aa;
     border: 0;
+    color: white;
     cursor: pointer; }
   #newGameBtn:onclick {
     background-color: #111163; }
