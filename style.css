@@ -1,0 +1,118 @@
+/*
+  Jace P. Gold
+  November 14th, 2017
+  JavaScript Rock Paper Scissors
+*/
+@import url(reset.css);
+*, *:before, *:after {
+  -moz-box-sizing: border-box;
+  -webkit-box-sizing: border-box;
+  box-sizing: border-box; }
+
+.hidden {
+  visibility: hidden; }
+
+img {
+  width: 100%;
+  height: auto; }
+
+h1 {
+  font-size: 3em; }
+
+h2 {
+  font-size: 2em; }
+
+a {
+  color: white;
+  text-decoration: underline; }
+  a:visited {
+    color: white; }
+
+html {
+  padding: 0; }
+
+body {
+  background-color: #5a5151;
+  color: white; }
+
+header {
+  background-color: #471e1e;
+  color: white;
+  padding: 2em 0; }
+  header h1, header h2 {
+    text-align: center; }
+
+#userChoice {
+  text-align: center; }
+
+#options {
+  color: white;
+  display: flex;
+  flex-direction: row default;
+  justify-content: space-around;
+  align-items: center;
+  margin-top: 2em;
+  height: 400px; }
+  #options h2 {
+    text-align: center;
+    font-weight: bolder; }
+  #options img {
+    cursor: pointer;
+    margin-top: 2em;
+    width: 250px; }
+    #options img:hover {
+      box-shadow: 1px 1px #53a7ea, 2px 2px #53a7ea, 3px 3px #53a7ea;
+      -webkit-transform: translateX(-3px);
+      transform: translateX(-3px); }
+
+#results {
+  display: flex;
+  flex-direction: row default;
+  justify-content: space-around;
+  background-color: #6b5555;
+  width: 80%;
+  height: auto;
+  margin: 0 auto;
+  margin-top: 2em;
+  padding: 2em; }
+
+footer {
+  background-color: black;
+  color: white;
+  background-color: white;
+  color: black;
+  position: absolute;
+  bottom: 0;
+  display: flex;
+  flex-direction: row default;
+  justify-content: space-around;
+  width: 100%;
+  padding: 2em; }
+  footer h2 {
+    display: flex;
+    flex-direction: row default;
+    justify-content: space-around;
+    align-items: center; }
+
+#newGameBtn {
+  display: flex;
+  flex-direction: row default;
+  justify-content: space-around;
+  align-items: center;
+  margin: 2em auto;
+  font-size: 1.25em;
+  padding: 1.25em;
+  background-color: lightblue;
+  outline: none; }
+  #newGameBtn:hover {
+    background-color: #3838aa;
+    border: 0;
+    cursor: pointer; }
+  #newGameBtn:onclick {
+    background-color: #111163; }
+
+.winning {
+  background-color: green; }
+
+.losing {
+  background-color: red; }
