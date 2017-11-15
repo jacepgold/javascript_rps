@@ -19,8 +19,8 @@
 }
 
 img {
-  width: 100%;
   height: auto;
+  width: 100%;
 }
 
 h1 {
@@ -60,17 +60,17 @@ header {
 }
 
 #options {
+  align-items: center;
   color: white;
   display: flex;
   flex-direction: row (default);
-  justify-content: space-around;
-  align-items: center;
-  margin-top: 2em;
   height: 400px;
+  justify-content: space-around;
+  margin-top: 2em;
 
   h2 {
-    text-align: center;
     font-weight: bolder;
+    text-align: center;
   }
 
   img {
@@ -89,48 +89,45 @@ header {
 }
 
 #results {
+  background-color: #6b5555;
   display: flex;
   flex-direction: row (default);
-  justify-content: space-around;
-  background-color: #6b5555;
-  width: 80%;
   height: auto;
+  justify-content: space-around;
   margin: 0 auto;
   margin-top: 2em;
   padding: 2em;
+  width: 80%;
 }
 
 footer {
-  background-color: black;
-  color: white;
   background-color: white;
-  color: black;
-  position: absolute;
   bottom: 0;
+  color: black;
   display: flex;
   flex-direction: row (default);
   justify-content: space-around;
-  width: 100%;
   padding: 2em;
-
+  position: absolute;
+  width: 100%;
   h2 {
+    align-items: center;
     display: flex;
     flex-direction: row (default);
     justify-content: space-around;
-    align-items: center;
   }
 }
 
 #newGameBtn {
+  align-items: center;
+  background-color: lightblue;
   display: flex;
   flex-direction: row (default);
-  justify-content: space-around;
-  align-items: center;
-  margin: 2em auto;
   font-size: 1.25em;
-  padding: 1.25em;
-  background-color: lightblue;
+  justify-content: space-around;
+  margin: 2em auto;
   outline: none;
+  padding: 1.25em;
   &:hover {
     background-color: rgb(56, 56, 170);
     border: 0;
